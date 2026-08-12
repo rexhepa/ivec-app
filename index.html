@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>iVeç — Private Photo Vault</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body {
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    max-width: 720px; margin: 0 auto; padding: 48px 20px; color: #1a1a1a;
+  }
+  @media (prefers-color-scheme: dark) { body { background:#0e0e10; color:#eee; } a{color:#6ea8ff;} .card{background:#1a1a1d;} }
+  header { text-align: center; margin-bottom: 40px; }
+  .badge { width: 96px; height: 96px; border-radius: 22px; display:block; margin: 0 auto 16px; }
+  h1 { font-size: 2rem; margin: 0; }
+  .tag { color:#888; margin-top: 6px; }
+  .card { background:#f4f4f6; border-radius: 14px; padding: 20px 24px; margin: 18px 0; }
+  h2 { font-size: 1.15rem; margin-top: 0; }
+  ul { padding-left: 1.2em; }
+  footer { text-align:center; color:#888; margin-top: 40px; font-size: .9rem; }
+</style>
+</head>
+<body>
+  <header>
+    <svg class="badge" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#5b4de6"/><stop offset="1" stop-color="#337cf9"/>
+      </linearGradient></defs>
+      <rect width="96" height="96" rx="22" fill="url(#g)"/>
+      <path d="M48 20c8 4 16 5 20 5v22c0 16-12 22-20 26-8-4-20-10-20-26V25c4 0 12-1 20-5z" fill="#fff"/>
+      <rect x="40" y="46" width="16" height="14" rx="3" fill="#337cf9"/>
+      <path d="M43 46v-4a5 5 0 0 1 10 0v4" fill="none" stroke="#337cf9" stroke-width="3"/>
+    </svg>
+    <h1>iVeç</h1>
+    <div class="tag">Private, encrypted photo &amp; video vault for iPhone</div>
+  </header>
+
+  <div class="card">
+    <h2>About</h2>
+    <p>iVeç keeps your photos and videos private. Everything you add is encrypted on
+    your iPhone with AES‑256 and protected by a PIN you choose, plus Face ID or Touch ID.
+    The app is fully offline — no accounts, no cloud, no analytics — so your media never
+    leaves your device.</p>
+  </div>
+
+  <div class="card">
+    <h2>Support</h2>
+    <p>Need help or have a question about iVeç?</p>
+    <ul>
+      <li>Open an issue or message on GitHub:
+        <a href="https://github.com/rexhepa">github.com/rexhepa</a></li>
+    </ul>
+    <p><strong>Forgot your PIN?</strong> For your privacy, your PIN is never stored and
+    cannot be recovered by anyone — including us. A forgotten PIN means the vault cannot
+    be opened. Please keep your PIN safe.</p>
+  </div>
+
+  <div class="card">
+    <h2>Privacy</h2>
+    <p>iVeç does not collect any data. Read the full
+      <a href="privacy.html">Privacy Policy</a>.</p>
+  </div>
+
+  <footer>© 2026 iVeç</footer>
+</body>
+</html>

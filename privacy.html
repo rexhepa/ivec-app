@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>iVeç — Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    max-width: 720px; margin: 0 auto; padding: 40px 20px; color: #1a1a1a;
+  }
+  @media (prefers-color-scheme: dark) { body { background:#0e0e10; color:#eee; } a{color:#6ea8ff;} code{background:rgba(255,255,255,.1);} }
+  h1 { font-size: 1.8rem; }
+  h2 { font-size: 1.2rem; margin-top: 1.8em; }
+  .eff { color: #888; }
+  code { background: rgba(0,0,0,.07); padding: 1px 5px; border-radius: 4px; }
+  a { color: #337cf9; }
+</style>
+</head>
+<body>
+  <h1>Privacy Policy — iVeç</h1>
+  <p class="eff"><strong>Effective date: 12 August 2026</strong></p>
+
+  <p>iVeç is a private photo and video vault for iPhone. This policy explains, in plain
+  language, how the app handles your information. In short: <strong>iVeç does not
+  collect, transmit, or share any of your data. Everything stays on your device.</strong></p>
+
+  <h2>No data leaves your device</h2>
+  <p>iVeç contains no networking code. It does not connect to the internet, and it has
+  no servers. It does not use accounts, cloud storage, analytics, advertising, or any
+  third‑party software development kits (SDKs). Because of this, none of your content or
+  information is ever uploaded, transmitted, or seen by us or anyone else.</p>
+
+  <h2>What the app stores, and where</h2>
+  <ul>
+    <li><strong>Your photos and videos</strong> are encrypted with AES‑256‑GCM and stored
+      only in the app’s private, sandboxed storage on your iPhone.</li>
+    <li><strong>Your albums, thumbnails, and the item index</strong> are likewise encrypted
+      and stored only on your device.</li>
+    <li><strong>Your PIN</strong> is never stored. It is processed on‑device (via PBKDF2)
+      solely to derive the key that unlocks your vault. We cannot recover it.</li>
+    <li><strong>Face ID / Touch ID:</strong> if you enable biometric unlock, the vault key
+      is stored in the iPhone’s device‑only Keychain, protected by the Secure Enclave.
+      Apple’s biometric system never shares your biometric data with the app or with us.</li>
+  </ul>
+
+  <h2>Camera and photo library access</h2>
+  <ul>
+    <li>The <strong>camera</strong> is used only when you choose to capture into the vault,
+      or if you enable the optional intruder‑capture feature.</li>
+    <li><strong>Photo library</strong> access is used only when you choose to import items,
+      or to save a copy back to your library. The app accesses only what you select.</li>
+    <li>The optional <strong>intruder‑capture</strong> feature, if you turn it on, takes a
+      front‑camera photo after repeated wrong PIN entries and stores it, encrypted, only on
+      your device. These images are never transmitted anywhere.</li>
+  </ul>
+
+  <h2>Backups</h2>
+  <p>Your encrypted vault is included in your normal iPhone backup (iCloud Backup or a
+  computer backup) so it can be restored to a new device. Those backups are handled
+  entirely by Apple under Apple’s terms; the vault contents remain encrypted, and your
+  PIN is still required to open them. We have no access to your backups.</p>
+
+  <h2>Children’s privacy</h2>
+  <p>iVeç does not collect any data from anyone, including children.</p>
+
+  <h2>Data deletion</h2>
+  <p>Because nothing is collected or stored off your device, there is nothing for us to
+  delete. Deleting the app from your iPhone removes its encrypted storage. Individual
+  items can be deleted at any time inside the app.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy changes, the updated version will be posted at this URL with a new
+  effective date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <a href="https://github.com/rexhepa">github.com/rexhepa</a></p>
+</body>
+</html>
